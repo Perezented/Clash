@@ -16,7 +16,7 @@ const Box = (props) => {
                 <div>
                     <h2>Total Count: {props.dataArray.projects.totalCount} </h2>
                     <ProjectsListed
-                        projects={props.dataArray.projects.projects}
+                        allProjects={props.dataArray.projects.projects}
                     />
                 </div>
             )}
